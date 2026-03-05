@@ -13,11 +13,11 @@ import '../styles/fonts.css';
 import '../styles/custom.css';
 
 export const metadata: Metadata = {
-  title: 'GymPro - Fitness and Gym',
+  title: 'SwimAmerica Kuwait ',
   description:
-    'GymPro offers structured training programs, expert coaching, and modern equipment to help you stay consistent, train safely, and achieve real fitness progress.',
-  keywords: 'gym, fitness, training, workout, health',
-  authors: [{ name: 'GymPro' }],
+    '',
+  keywords: '',
+  authors: [{ name: 'SwimAmerica Kuwait' }],
   icons: { icon: '/images/favicon.png' },
 };
 

@@ -44,7 +44,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                  <Link href="/contact" className="btn-default btn-highlighted">Get Started Now</Link>
+                  <Link href="#" className="btn-default btn-highlighted">Get Started Now</Link>
                 </div>
               </div>
             </div>
@@ -155,13 +155,13 @@ export default function HomePage() {
                     </ul>
                   </div>
                   <div className="contact-us-circle">
-                    <Link href="/contact">
+                    <Link href="#">
                       <Image src="/images/contact-us-circle.svg" alt="Contact Us" width={120} height={120} />
                     </Link>
                   </div>
                 </div>
                 <div className="about-us-btn wow fadeInUp" data-wow-delay="0.8s">
-                  <Link href="/about" className="btn-default">More About Us</Link>
+                  <Link href="#" className="btn-default">More About Us</Link>
                 </div>
               </div>
             </div>
@@ -244,11 +244,11 @@ export default function HomePage() {
                     </div>
                     <div className="program-item-body-content">
                       <div className="program-item-content">
-                        <h2><Link href="/programs">{program.title}</Link></h2>
+                        <h2><Link href="#">{program.title}</Link></h2>
                         <p>{program.desc}</p>
                       </div>
                       <div className="program-item-btn">
-                        <Link href="/programs" className="readmore-btn">View Program</Link>
+                        <Link href="#" className="readmore-btn">View Program</Link>
                       </div>
                     </div>
                   </div>
@@ -259,7 +259,7 @@ export default function HomePage() {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-footer-text text-center wow fadeInUp" data-wow-delay="0.8s">
-                <Link href="/programs" className="btn-default btn-highlighted">
+                <Link href="#" className="btn-default btn-highlighted">
                   View All Classes
                 </Link>
               </div>
@@ -310,7 +310,7 @@ export default function HomePage() {
                   </ul>
                 </div>
                 <div className="why-choose-us-btn wow fadeInUp" data-wow-delay="0.8s">
-                  <Link href="/contact" className="btn-default">Learn More</Link>
+                  <Link href="#" className="btn-default">Learn More</Link>
                 </div>
               </div>
             </div>
@@ -350,7 +350,7 @@ export default function HomePage() {
                     <Image src="/images/icon-phone-primary.svg" alt="" width={20} height={20} />
                   </div>
                 </div>
-                <p>Let&apos;s create confident swimmers together. <Link href="/contact">Get Started Now</Link></p>
+                <p>Let&apos;s create confident swimmers together. <Link href="#">Get Started Now</Link></p>
               </div>
             </div>
           </div>
@@ -404,7 +404,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                  <Link className="btn-default" href="/contact">Contact Us</Link>
+                  <Link className="btn-default" href="#">Contact Us</Link>
                 </div>
               </div>
             </div>
@@ -445,7 +445,7 @@ export default function HomePage() {
                         </p>
                       </div>
                       <div className="feature-cta-item-btn">
-                        <Link href="/contact" className="btn-default btn-highlighted">Learn More</Link>
+                        <Link href="#" className="btn-default btn-highlighted">Learn More</Link>
                       </div>
                     </div>
                   </div>
@@ -540,7 +540,7 @@ export default function HomePage() {
                 </div>
                 <p>
                   Let&apos;s help your child swim with confidence.{' '}
-                  <Link href="/contact">Register Online</Link>
+                  <Link href="#">Register Online</Link>
                 </p>
               </div>
             </div>
@@ -623,7 +623,7 @@ export default function HomePage() {
                 </div>
                 <p>
                   Simple steps behind our SwimAmerica system, built to support every swimmer.{' '}
-                  <Link href="/programs">See All Programs</Link>
+                  <Link href="#">See All Programs</Link>
                 </p>
                 <ul>
                   <li>8,000+ Graduates</li>
@@ -657,7 +657,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                  <Link href="/trainers" className="btn-default">View All Coaches</Link>
+                  <Link href="#" className="btn-default">View All Coaches</Link>
                 </div>
               </div>
             </div>
@@ -671,7 +671,7 @@ export default function HomePage() {
               <div key={idx} className="col-xl-4 col-md-6">
                 <div className="trainer-item wow fadeInUp" data-wow-delay={trainer.delay}>
                   <div className="trainer-item-image">
-                    <Link href="/trainers/trainer-details" data-cursor-text="View">
+                    <Link href="#" data-cursor-text="View">
                       <figure>
                         <Image src={`/images/trainer-${trainer.img}.jpg`} alt={trainer.name} width={400} height={450} />
                       </figure>
@@ -687,7 +687,7 @@ export default function HomePage() {
                   </div>
                   <div className="trainer-item-content">
                     <ul><li>{trainer.specialty}</li></ul>
-                    <h2><Link href="/trainers/trainer-details">{trainer.name}</Link></h2>
+                    <h2><Link href="#">{trainer.name}</Link></h2>
                   </div>
                 </div>
               </div>
@@ -706,7 +706,7 @@ export default function HomePage() {
                 </div>
                 <p>
                   Let&apos;s help you choose the right level today.{' '}
-                  <Link href="/contact">Book an Assessment</Link>
+                  <Link href="#">Book an Assessment</Link>
                 </p>
               </div>
             </div>
@@ -778,7 +778,7 @@ export default function HomePage() {
                         <p>{plan.strip}</p>
                       </div>
                       <div className="pricing-item-btn">
-                        <Link href="/contact" className="btn-default btn-highlighted">
+                        <Link href="#" className="btn-default btn-highlighted">
                           {plan.button}
                         </Link>
                       </div>
@@ -801,11 +801,11 @@ export default function HomePage() {
                       starting point for your swimmer.
                     </p>
                     <h3>
-                      Call Us At: <a href="tel:+96556641177">+965 5664 1177</a>
+                      Call Us At: <a href="#">+965 5664 1177</a>
                     </h3>
                   </div>
                   <div className="pricing-cta-btn">
-                    <Link href="tel:+96556641177" className="btn-default btn-highlighted">
+                    <Link href="#" className="btn-default btn-highlighted">
                       Call Us Today
                     </Link>
                   </div>
@@ -851,7 +851,7 @@ export default function HomePage() {
                     </p>
                   </div>
                   <div className="faqs-cta-btn">
-                    <Link href="/faqs" className="btn-default btn-highlighted">
+                    <Link href="#" className="btn-default btn-highlighted">
                       View All FAQ&apos;s
                     </Link>
                   </div>
@@ -958,7 +958,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="contact-us-circle wow fadeInUp" data-wow-delay="0.4s">
-                  <Link href="/contact">
+                  <Link href="#">
                     <Image src="/images/contact-us-circle.svg" alt="Safe Learning. Real Progress." width={120} height={120} />
                   </Link>
                 </div>
@@ -1104,7 +1104,7 @@ export default function HomePage() {
               <div key={idx} className="col-xl-4 col-md-6">
                 <div className="post-item wow fadeInUp" data-wow-delay={post.delay}>
                   <div className="post-item-image">
-                    <Link href="/blog/blog-details" data-cursor-text="View">
+                    <Link href="#" data-cursor-text="View">
                       <figure>
                         <Image src={`/images/post-${post.img}.jpg`} alt={post.title} width={400} height={300} />
                       </figure>
@@ -1112,10 +1112,10 @@ export default function HomePage() {
                   </div>
                   <div className="post-item-body">
                     <div className="post-item-tag">
-                      <Link href="/blog/blog-details">{post.tag}</Link>
+                      <Link href="#">{post.tag}</Link>
                     </div>
                     <div className="post-item-content">
-                      <h2><Link href="/blog/blog-details">{post.title}</Link></h2>
+                      <h2><Link href="#">{post.title}</Link></h2>
                       <p>{post.desc}</p>
                     </div>
                   </div>
