@@ -11,7 +11,7 @@ const Header = () => {
           <div className="container">
             {/* Logo */}
             <Link className="navbar-brand" href="/">
-              <Image src="/images/logo.svg" alt="GymPro Logo" width={140} height={40} />
+              <Image src="/images/logo.png" alt="GymPro Logo" width={210} height={60} />
             </Link>
 
             {/* Main Menu */}
