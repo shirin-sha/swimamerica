@@ -102,7 +102,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="col-lg-12">
             <div className="footer-copyright-text">
-              <p>Copyright &copy; 2026 All Rights Reserved.</p>
+              <p>Copyright © 2026 SwimAmerica Kuwait. All Rights Reserved.</p>
             </div>
           </div>
         </div>
