@@ -343,7 +343,7 @@ export default function HomePage() {
                 <div className="satisfy-client-images">
                   <div className="satisfy-client-image">
                     <figure className="image-anime">
-                      <Image src="/images/author-6.jpg" alt="" width={40} height={40} />
+                      <Image src="/images/author-6.jpg" alt="" width={30} height={30} />
                     </figure>
                   </div>
                   <div className="satisfy-client-image add-more">
@@ -374,7 +374,7 @@ export default function HomePage() {
                 </div>
                 <div className="watch-video-circle wow fadeInUp">
                   <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="popup-video" data-cursor-text="Play">
-                    <Image src="/images/watch-video-circle.png" alt="Watch Video" width={150} height={150} />
+                    <Image src="/images/watch-video-circle.png" alt="Watch Video" width={130} height={130} />
                   </a>
                 </div>
               </div>
@@ -531,7 +531,7 @@ export default function HomePage() {
                 <div className="satisfy-client-images">
                   <div className="satisfy-client-image">
                     <figure className="image-anime">
-                      <Image src="/images/author-6.jpg" alt="" width={40} height={40} />
+                      <Image src="/images/author-6.jpg" alt="" width={32} height={32} />
                     </figure>
                   </div>
                   <div className="satisfy-client-image add-more">
@@ -614,7 +614,7 @@ export default function HomePage() {
                 <div className="satisfy-client-images">
                   <div className="satisfy-client-image">
                     <figure className="image-anime">
-                      <Image src="/images/author-6.jpg" alt="" width={40} height={40} />
+                      <Image src="/images/author-6.jpg" alt="" width={32} height={32} />
                     </figure>
                   </div>
                   <div className="satisfy-client-image add-more">
@@ -697,7 +697,7 @@ export default function HomePage() {
                 <div className="satisfy-client-images">
                   <div className="satisfy-client-image">
                     <figure className="image-anime">
-                      <Image src="/images/author-6.jpg" alt="" width={40} height={40} />
+                      <Image src="/images/author-6.jpg" alt="" width={32} height={32} />
                     </figure>
                   </div>
                   <div className="satisfy-client-image add-more">

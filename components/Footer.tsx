@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="about-footer-item">
                 <div className="about-footer-item-image">
                   <figure>
-                    <Image src="/images/footer-location-map.png" alt="Location Map" width={300} height={200} />
+                    <Image src="/images/footer-location-map.png" alt="Location Map" width={160} height={79.5} />
                   </figure>
                 </div>
                 <div className="about-footer-item-content">
