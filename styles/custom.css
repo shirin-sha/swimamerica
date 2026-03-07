@@ -3085,6 +3085,7 @@ header.main-header .header-sticky.active{
 .about-footer-item-image figure img{
 	width: 100%;
 	max-width: 160px;
+	filter: brightness(0) invert(1);
 }
 
 .about-footer-item-content{
