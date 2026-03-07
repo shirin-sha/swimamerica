@@ -87,12 +87,12 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-social-links">
-                  <p>Instagram &bull; Facebook &bull; YouTube</p>
+                
                   <ul>
-                    <li><a href="#"><i className="fa-brands fa-pinterest-p"></i></a></li>
-                    <li><a href="#"><i className="fa-brands fa-x-twitter"></i></a></li>
+              
                     <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i className="fab fa-youtube"></i></a></li>
                   </ul>
                 </div>
               </div>
