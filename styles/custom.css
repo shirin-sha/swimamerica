@@ -244,7 +244,7 @@ a:focus{
     right: 24px;
 	width: 24px;
 	height: 24px;
-	background-image: url('../images/arrow-primary.svg');
+	background-image: url('/images/arrow-primary.svg');
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -310,7 +310,7 @@ a:focus{
     background: var(--accent-color);
     border-radius: 50%;
 	transform: translateY(-50%);
-	background-image: url('../images/arrow-primary.svg');
+	background-image: url('/images/arrow-primary.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px auto;
@@ -393,7 +393,7 @@ a:focus{
 
 .dark-section{
 	background-color: var(--primary-color);
-	background-image: url('../images/dark-section-bg-image.png');
+	background-image: url('/images/dark-section-bg-image.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -1184,7 +1184,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-programs{
-	background-image: url('../images/setion-bg-image-1.png');
+	background-image: url('/images/setion-bg-image-1.png');
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: bottom -60px left -100px;
@@ -1650,7 +1650,7 @@ header.main-header .header-sticky.active{
 
 .intro-video{
 	position: relative;
-	background-image: url(../images/intro-video-bg-image.jpg);
+	background-image: url(/images/intro-video-bg-image.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1985,7 +1985,7 @@ header.main-header .header-sticky.active{
 
 .our-features-item.experience-item{
 	background-color: var(--primary-color);
-	background-image: url(../images/our-feature-experience-item.svg);
+	background-image: url(/images/our-feature-experience-item.svg);
 	background-repeat: no-repeat;
 	background-position: top 20px right 20px; 
 	background-size: 80px auto;
@@ -2294,7 +2294,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-pricing{
-	background-image: url(../images/setion-bg-image-1.png);
+	background-image: url(/images/setion-bg-image-1.png);
     background-repeat: no-repeat;
     background-position: bottom -70px left -100px;
     background-size: auto;
@@ -2652,7 +2652,7 @@ header.main-header .header-sticky.active{
 	width: 30px;
 	background-color: var(--accent-color);
 	border-radius: 50%;
-	background-image: url('../images/arrow-primary.svg');
+	background-image: url('/images/arrow-primary.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px auto;
@@ -2700,7 +2700,7 @@ header.main-header .header-sticky.active{
 
 .our-testimonials{
 	position: relative;
-	background-image: url('../images/our-testimonial-bg-image.jpg');
+	background-image: url('/images/our-testimonial-bg-image.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2855,7 +2855,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 50%;
     right: 0;
-	background: url('../images/arrow-white.svg');
+	background: url('/images/arrow-white.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 24px auto;
@@ -3220,7 +3220,7 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-	background-image: url('../images/page-header-bg.jpg');
+	background-image: url('/images/page-header-bg.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3282,7 +3282,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-approach{
-	background-image: url(../images/setion-bg-image-1.png);
+	background-image: url(/images/setion-bg-image-1.png);
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom -60px left -100px;
@@ -3569,7 +3569,7 @@ header.main-header .header-sticky.active{
     top: 50%;
 	transform: translate(-2px, -50%) rotate(45deg);
     right: 0;
-	background: url('../images/arrow-primary.svg') no-repeat;
+	background: url('/images/arrow-primary.svg') no-repeat;
 	background-position: center center;
 	background-size: cover;
     width: 20px;
@@ -4205,7 +4205,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-entry blockquote{
-	background: var(--secondary-color) url('../images/icon-blockquote.svg');
+	background: var(--secondary-color) url('/images/icon-blockquote.svg');
 	background-repeat: no-repeat;
 	background-position: 30px 30px;
     background-size: 45px;
@@ -4578,7 +4578,7 @@ header.main-header .header-sticky.active{
 }
 
 .team-member-philosophy-box blockquote{
-	background: var(--secondary-color) url(../images/icon-blockquote.svg);
+	background: var(--secondary-color) url(/images/icon-blockquote.svg);
     background-repeat: no-repeat;
     background-position: 30px 30px;
     background-size: 35px;
@@ -6856,7 +6856,7 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-image-box-prime{
-	background-image: url('../images/about-us-image-box-bg-image.png');
+	background-image: url('/images/about-us-image-box-bg-image.png');
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position: bottom 10px left;
@@ -6884,8 +6884,8 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-image-box-1-prime .about-us-image-prime figure{
-	mask-image: url('../images/about-us-image-bg-shape-1-prime.svg');
-	background-image: url('../images/about-us-image-bg-shape-1-prime.svg');
+	mask-image: url('/images/about-us-image-bg-shape-1-prime.svg');
+	background-image: url('/images/about-us-image-bg-shape-1-prime.svg');
 }
 
 .about-us-image-box-1-prime .about-us-image-prime figure img{
@@ -6914,8 +6914,8 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-image-box-2-prime .about-us-image-prime figure{
-	mask-image: url('../images/about-us-image-bg-shape-2-prime.svg');
-	background-image: url('../images/about-us-image-bg-shape-2-prime.svg');
+	mask-image: url('/images/about-us-image-bg-shape-2-prime.svg');
+	background-image: url('/images/about-us-image-bg-shape-2-prime.svg');
 }
 
 .about-us-image-box-2-prime .about-us-image-prime figure img{
@@ -6923,7 +6923,7 @@ header.main-header .header-sticky.active{
 }
 
 .about-us-body-prime{
-	background: var(--secondary-color) url('../images/icon-about-body-quote-prime.svg') no-repeat;
+	background: var(--secondary-color) url('/images/icon-about-body-quote-prime.svg') no-repeat;
 	background-size: auto;
 	background-position: top 40px right 40px;
 	border-radius: 20px;
@@ -6978,7 +6978,7 @@ header.main-header .header-sticky.active{
 }
 
 .our-programs-prime{
-	background-image: url('../images/setion-bg-image-1.png');
+	background-image: url('/images/setion-bg-image-1.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom -60px left -100px;
@@ -7815,7 +7815,7 @@ header.main-header .header-sticky.active{
 .testimonial-content-box-prime{
 	position: relative;
 	width: 50%;
-	background: url('../images/testimonial-content-bg-prime.jpg');
+	background: url('/images/testimonial-content-bg-prime.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -7981,7 +7981,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 50%;
     right: 0;
-	background: url('../images/arrow-white.svg') no-repeat center center;
+	background: url('/images/arrow-white.svg') no-repeat center center;
     background-size: cover;
     transform: translate(-50%, -50%);
 	width: 24px;
@@ -9003,7 +9003,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .hero-gold{
-	background-image: url('../images/hero-bg-image-gold.png');
+	background-image: url('/images/hero-bg-image-gold.png');
 	border-radius: 20px;
 	padding: 195px 0 0;
 	margin: 15px 15px 0;
@@ -10047,7 +10047,7 @@ header.main-header .header-sticky.active{
 }
 
 .how-it-work-gold{
-	background-image: url('../images/setion-bg-image-1.png');
+	background-image: url('/images/setion-bg-image-1.png');
     background-repeat: no-repeat;
     background-position: bottom 5px left -110px;
     background-size: auto;
@@ -10300,7 +10300,7 @@ header.main-header .header-sticky.active{
 	width: 30px;
 	height: 30px;
 	background-color: var(--accent-color);
-	background-image: url('../images/arrow-primary.svg');
+	background-image: url('/images/arrow-primary.svg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 16px auto;

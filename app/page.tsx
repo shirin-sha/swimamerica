@@ -11,8 +11,8 @@ export default function HomePage() {
       {/* ===== HERO SECTION ===== */}
       <div className="hero dark-section parallaxie">
         <div className="hero-bg-video">
-          <video autoPlay muted loop id="myvideo">
-            <source src="https://demo.awaikenthemes.com/assets/videos/gympro-hero-video.mp4" type="video/mp4" />
+          <video autoPlay muted loop playsInline id="myvideo">
+            <source src="/images/heromov.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="container">
@@ -24,7 +24,7 @@ export default function HomePage() {
                     {[1, 2, 3, 4].map((i) => (
                       <div key={i} className="satisfy-client-image">
                         <figure className="image-anime">
-                          <Image src={`/images/author-${i}.jpg`} alt={`Author ${i}`} width={40} height={40} />
+                          <Image src={`/images/author-${i}.jpg`} alt={`Author ${i}`} width={28} height={28} />
                         </figure>
                       </div>
                     ))}
