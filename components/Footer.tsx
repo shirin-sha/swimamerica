@@ -31,16 +31,12 @@ const Footer = () => {
                 </p>
               </div>
               <div className="about-footer-item">
-                <div className="about-footer-item-image">
-                  <figure>
-                    <Image src="/images/footer-location-map.png" alt="Location Map" width={160} height={79.5} />
-                  </figure>
-                </div>
+              
                 <div className="about-footer-item-content">
                   <p>
                     Sharq: Dasman Bilingual School, Gate 3
-                    <br />
-                    Salwa: Danah Universal School of Kuwait, Salwa Block 1, Street 100, Gate 3
+                    <br />     <br />
+                    Salwa: Danah Universal School of Kuwait, <br/>Salwa Block 1, Street 100, Gate 3
                   </p>
                 </div>
               </div>

@@ -28,7 +28,7 @@ const Header = () => {
                     <Link className="nav-link" href="#">Our Team</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#">Programs (Services)</Link>
+                    <Link className="nav-link" href="#">Programs</Link>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" href="#">Franchising</Link>
@@ -58,7 +58,7 @@ const Header = () => {
 
               {/* Header Button */}
               <div className="header-btn">
-                <Link href="/contact" className="btn-default btn-highlighted">Our Store</Link>
+                <Link href="https://outlet.bestsports.co/" target="_blank" className="btn-default btn-highlighted">Our Store</Link>
               </div>
             </div>
 

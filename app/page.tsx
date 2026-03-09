@@ -71,7 +71,7 @@ export default function HomePage() {
                 <div className="about-us-image-box-1">
                   <div className="about-us-image">
                     <figure className="image-anime">
-                      <Image src="/images/about-us-image-1.jpg" alt="About Us" width={600} height={400} />
+                      <Image src="/images/about-us-image-1.jpg" alt="About Us" width={480} height={560} />
                     </figure>
                   </div>
                   <div className="about-us-cta-box">
@@ -101,7 +101,7 @@ export default function HomePage() {
                 <div className="about-us-image-box-2">
                   <div className="about-us-image">
                     <figure className="image-anime">
-                      <Image src="/images/about-us-image-2.jpg" alt="About Us 2" width={400} height={300} />
+                      <Image src="/images/about-us-image-2.jpg" alt="About Us 2" width={314} height={443} />
                     </figure>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default function HomePage() {
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.2s">
                     SwimAmerica Kuwait is more than lessons. It is a structured learn to swim
-                    program designed by American Swimming Coaches Association professionals,
+                    program,
                     helping swimmers grow in safety, confidence, and technique.
                   </p>
                 </div>
@@ -128,7 +128,7 @@ export default function HomePage() {
                     <div className="about-us-item-content">
                       <h3>Structured Stations</h3>
                       <p>
-                        Clear station goals from bubbles to medley and graduation, so progress
+                        Clear station, so progress
                         stays visible every class.
                       </p>
                     </div>
@@ -140,8 +140,7 @@ export default function HomePage() {
                     <div className="about-us-item-content">
                       <h3>Certified Coaches</h3>
                       <p>
-                        Multinational instructors certified by ASCA, trained in First Aid, CPR,
-                        AED, and rescue.
+                        Multinational instructors certified by ASCA.
                       </p>
                     </div>
                   </div>
@@ -185,7 +184,7 @@ export default function HomePage() {
           <div className="row program-item-list">
             {[
               {
-                img: 1,
+                img: 'learn',
                 icon: 1,
                 no: '01.',
                 title: 'Learn to Swim Program',
@@ -232,7 +231,7 @@ export default function HomePage() {
                 <div className={`program-item${program.active ? ' active' : ''} wow fadeInUp`} data-wow-delay={`${idx * 0.2}s`}>
                   <div className="program-item-image">
                     <figure>
-                      <Image src={`/images/program-image-${program.img}.jpg`} alt={program.title} width={400} height={300} />
+                      <Image src={`/images/${program.img}.jpg`} alt={program.title} width={400} height={300} />
                     </figure>
                   </div>
                   <div className="program-item-body">
@@ -277,7 +276,9 @@ export default function HomePage() {
                 <div className="section-title">
                   <span className="section-sub-title wow fadeInUp">Why Choose Us</span>
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    More than a swim school complete learning experience
+                    More than a swim school 
+                    <br/>
+                    a complete experience
                   </h2>
                   <p className="wow fadeInUp" data-wow-delay="0.2s">
                     SwimAmerica Kuwait delivers more than pool time. We provide structured
@@ -305,8 +306,8 @@ export default function HomePage() {
                 </div>
                 <div className="why-choose-us-list wow fadeInUp" data-wow-delay="0.6s">
                   <ul>
-                    <li> Coaches and supervisors guide every swimmer with clear station goals and daily support.</li>
-                    <li>✓ Small groups with a 6:1 ratio help beginners and advanced swimmers learn comfortably and safely.</li>
+                    <li> Coaches guide every swimmer with clear station goals and daily support.</li>
+                    <li>Small groups with a 6:1 ratio help learn comfortably and safely.</li>
                   </ul>
                 </div>
                 <div className="why-choose-us-btn wow fadeInUp" data-wow-delay="0.8s">
@@ -440,8 +441,7 @@ export default function HomePage() {
                       <div className="feature-cta-item-content">
                         <h3>Group Training Sessions</h3>
                         <p>
-                          Stay motivated with small group lessons that build confidence and technique through clear
-                          station goals and friendly coaching.
+                          Stay motivated with small group lessons that build confidence and technique.
                         </p>
                       </div>
                       <div className="feature-cta-item-btn">
@@ -478,8 +478,7 @@ export default function HomePage() {
                     <div className="feature-item-content">
                       <h3>Structured Swim Programs</h3>
                       <p>
-                        Follow level based programs built for water safety, technique, endurance, and confident swimming
-                        at every age.
+                        Follow level based programs built for water safety, technique, and endurance.
                       </p>
                     </div>
                     <div className="feature-scrolling-ticker">
@@ -513,8 +512,7 @@ export default function HomePage() {
                     <div className="feature-item-content">
                       <h3>Since 2013 in Kuwait</h3>
                       <p>
-                        Our team helps swimmers progress safely with station based training, clear evaluation, and a
-                        supportive environment every session.
+                        Our team helps swimmers progress safely with station based training, clear evaluation.
                       </p>
                       <ul>
                         <li>Small groups with 6:1 coaching ratio</li>
@@ -568,31 +566,31 @@ export default function HomePage() {
                   {
                     step: 'Step 01',
                     title: 'Register with SwimAmerica',
-                    desc: 'Start online and choose the right program for your swimmer, from beginners to advanced levels, with clear station progression.',
+                    desc: 'Start online and choose the right program for your swimmer, from beginners to advanced levels.',
                     li: 'Select the package and class schedule that fits',
-                    img: 1,
+                    img: 'step_01',
                   },
                   {
                     step: 'Step 02',
                     title: 'Assessment & Level Placement',
-                    desc: 'Our supervisor evaluates swimming ability and places each swimmer in the correct station level for safe, fast progress.',
+                    desc: 'We evaluates swimming ability and places each swimmer in the correct station level for safe, fast progress.',
                     li: 'Daily evaluation with clear station goals',
-                    img: 2,
+                    img: 'step_02',
                     delay: '0.2s',
                   },
                   {
                     step: 'Step 03',
                     title: 'Station Based Training',
-                    desc: 'Swimmers train in structured stations with certified coaches, building water safety, confidence, and stronger stroke technique.',
+                    desc: 'Swimmers train in structured stations, building water safety, confidence, and stronger stroke technique.',
                     li: 'Lessons designed around progress and safety',
-                    img: 3,
+                    img: 'step_03',
                     delay: '0.4s',
                   },
                 ].map((item, idx) => (
                   <div key={idx} className="how-work-item wow fadeInUp" data-wow-delay={item.delay}>
                     <div className="how-work-item-image">
                       <figure className="image-anime">
-                        <Image src={`/images/how-it-work-item-image-${item.img}.jpg`} alt={item.title} width={300} height={300} />
+                        <Image src={`/images/${item.img}.svg`} alt={item.title} width={300} height={300} />
                       </figure>
                       <div className="how-work-item-step"><p>{item.step}</p></div>
                     </div>
@@ -644,7 +642,7 @@ export default function HomePage() {
               <div className="section-title">
                 <span className="section-sub-title wow fadeInUp">Our Coaches</span>
                 <h2 className="text-anime-style-3" data-cursor="-opaque">
-                  Coaches supporting your swimmer&apos;s goals and confidence
+                  Coaches supporting your goals and confidence
                 </h2>
               </div>
             </div>
@@ -652,7 +650,7 @@ export default function HomePage() {
               <div className="section-content-btn">
                 <div className="section-title-content wow fadeInUp" data-wow-delay="0.2s">
                   <p>
-                    Our supportive, experienced coaches work closely with swimmers to build water safety,
+                    Our experienced coaches work closely with swimmers to build water safety,
                     proper technique, and steady progress with encouragement in every session.
                   </p>
                 </div>
@@ -665,8 +663,9 @@ export default function HomePage() {
           <div className="row">
             {[
               { img: 1, name: 'Eslam Alfalah', specialty: 'Learn to Swim Coaching', delay: '0.2s' },
-              { img: 2, name: 'Upul Jayawickrama', specialty: 'Stroke Technique Development', delay: '0.4s' },
-              { img: 4, name: 'Carlo Del Rio', specialty: 'Advanced Training Support', delay: '0.6s' },
+              { img: 2, name: 'Sameera Anuranjana', specialty: 'Advanced Training Support', delay: '0.4s' },
+              { img: 3, name: 'Upul Jayawickrama', specialty: 'Stroke Technique Development', delay: '0.4s' },
+            
             ].map((trainer, idx) => (
               <div key={idx} className="col-xl-4 col-md-6">
                 <div className="trainer-item wow fadeInUp" data-wow-delay={trainer.delay}>
@@ -863,7 +862,7 @@ export default function HomePage() {
                 <div className="section-title">
                   <span className="section-sub-title wow fadeInUp">Frequently Asked Questions</span>
                   <h2 className="text-anime-style-3" data-cursor="-opaque">
-                    Common questions about swimming lessons and training
+                    Common questions about lessons and training
                   </h2>
                 </div>
                 <div className="faq-accordion" id="accordion">
