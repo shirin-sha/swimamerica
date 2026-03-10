@@ -567,7 +567,7 @@ export default function HomePage() {
                   {
                     step: 'Step 02',
                     title: 'Assessment & Level Placement',
-                    desc: 'We evaluates swimming ability and places each swimmer in the correct station level for safe, fast progress.',
+                    desc: 'We assess swimming ability and place each swimmer at the right level for safe, fast progress.',
                     li: 'Daily evaluation with clear station goals',
                     img: 'step_02',
                     delay: '0.2s',
