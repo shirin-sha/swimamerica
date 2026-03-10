@@ -832,7 +832,7 @@ header.main-header .header-sticky.active{
 	display: inline-flex;
 	align-items: center;
 	gap: 10px;
-	background-color: var(--dark-divider-color);
+	background-color: rgba(65, 64, 66, 0.5); /* #414042 at 50% opacity */
 	border-radius: 100px;
 	backdrop-filter: blur(50px);
 	-webkit-backdrop-filter: blur(50px);
