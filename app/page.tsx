@@ -658,7 +658,7 @@ export default function HomePage() {
             {[
               { img: 1, name: 'Eslam Alfalah', specialty: 'Learn to Swim Coaching', delay: '0.2s' },
               { img: 2, name: 'Sameera Anuranjana', specialty: 'Advanced Training Support', delay: '0.4s' },
-              { img: 3, name: 'Upul Jayawickrama', specialty: 'Stroke Technique Development', delay: '0.4s' },
+              { img: 3, name: 'Kris Evert', specialty: 'Stroke Technique Development', delay: '0.4s' },
             
             ].map((trainer, idx) => (
               <div key={idx} className="col-xl-4 col-md-6">
