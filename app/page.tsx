@@ -123,7 +123,7 @@ export default function HomePage() {
                 <div className="about-us-item-list wow fadeInUp" data-wow-delay="0.4s">
                   <div className="about-us-item">
                     <div className="icon-box">
-                      <Image src="/images/icon-about-us-item-1.svg" alt="Structured Stations" width={40} height={40} />
+                      <Image src="/images/icon-about-us-item-1.svg" alt="Structured Stations" width={34} height={30 }  />
                     </div>
                     <div className="about-us-item-content">
                       <h3>Structured Stations</h3>
@@ -231,7 +231,7 @@ export default function HomePage() {
                   <div className="program-item-body">
                     <div className="program-item-header">
                       <div className="icon-box">
-                        <Image src={`/images/icon-program-item-${program.icon}.svg`} alt="" width={40} height={40} />
+                        <Image src={`/images/icon-program-item-${program.icon}.svg`} alt="" width={34} height={30} />
                       </div>
                  
                     </div>

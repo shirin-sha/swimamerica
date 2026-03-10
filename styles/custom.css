@@ -308,7 +308,7 @@ a:focus{
     right: 0;
 	width: 30px;
 	height: 30px;
-    background: var(--accent-color);
+    background: #a0bee2;
     border-radius: 50%;
 	transform: translateY(-50%);
 	background-image: url('/images/arrow-white.svg');
@@ -905,12 +905,12 @@ header.main-header .header-sticky.active{
 
 .hero-counter-box{
 	max-width: 390px;
-	background: rgba(8, 5, 23, 0.3); 
+	background: rgba(65, 64, 66, 0.5); /* #414042 at 50% opacity */
 	backdrop-filter: blur(30px);
 	-webkit-backdrop-filter: blur(30px);
 	border-radius: 20px;
 	padding: 30px;
-    margin-left: auto;
+    margin-left: auto;	
 }
 
 .hero-counter-box h2{
@@ -1082,10 +1082,9 @@ header.main-header .header-sticky.active{
 .about-us-item .icon-box img{
 	position: relative;
     width: 100%;
-    max-width: 24px;
+    max-width: 32px;
     transition: all 0.4s ease-in-out;
     z-index: 1;
-	filter: brightness(0) invert(1);
 }
 
 .about-us-item:hover .icon-box img{
@@ -1289,8 +1288,7 @@ header.main-header .header-sticky.active{
 
 .program-item-body .icon-box img{
     width: 100%;
-    max-width: 24px;
-    filter: brightness(0) invert(1);
+ 
 }
 
 .program-item-no span{
