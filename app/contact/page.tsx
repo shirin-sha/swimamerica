@@ -202,39 +202,9 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <div className="row section-row justify-content-center">
-            <div className="col-md-4">
-              <div className="contact-location-card wow fadeInUp">
-                <h3>Sharq</h3>
-                <p className="location-label">SwimAmerica</p>
-                <p>Dasman Bilingual School, Kuwait</p>
-                <p>Gate 3</p>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="contact-location-card wow fadeInUp" data-wow-delay="0.2s">
-                <h3>Salwa</h3>
-                <p className="location-label">SwimAmerica</p>
-                <p>Danah Universal School of Kuwait</p>
-                <p>Salwa Block 1, Street 100, Gate 3</p>
-              </div>
-            </div>
-          </div>
           <div className="row">
-            <div className="col-lg-6">
-              <div className="google-map-iframe wow fadeInUp" data-wow-delay="0.2s">
-                {/* TODO: Replace src with official Sharq embed URL from Google Maps → Share → Embed a map */}
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.7305!2d48.0!3d29.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKuwait!5e0!3m2!1sen!2skw!4v1703158537552"
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="google-map-iframe wow fadeInUp" data-wow-delay="0.4s">
-                {/* TODO: Replace src with official Salwa embed URL from Google Maps → Share → Embed a map */}
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.7305!2d48.0!3d29.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKuwait!5e0!3m2!1sen!2skw!4v1703158537552"
                   allowFullScreen

@@ -186,35 +186,30 @@ export default function HomePage() {
               {
                 img: 'learn',
                 icon: 1,
-                no: '01.',
                 title: 'Learn to Swim Program',
                 desc: 'Structured station based lessons that build water safety, confidence, and core stroke foundations step by step.',
               },
               {
                 img: 2,
                 icon: 2,
-                no: '02.',
                 title: 'Water Babies Class',
                 desc: 'A playful parent guided class using songs and simple skills to help little ones feel safe in water.',
               },
               {
                 img: 3,
                 icon: 3,
-                no: '03.',
                 title: 'Junior Development Program',
                 desc: 'For graduates ready to refine technique and build stronger endurance across all four competitive strokes.',
               },
               {
                 img: 4,
                 icon: 4,
-                no: '04.',
                 title: 'Adult Learn to Swim',
                 desc: 'Private supportive coaching to overcome fear, improve technique, and enjoy a safe low impact fitness skill.',
               },
               {
                 img: 5,
                 icon: 5,
-                no: '05.',
                 title: 'Private & Home Classes',
                 desc: 'Personalized sessions designed to accelerate progress with focused coaching and flexible scheduling.',
                 active: true,
@@ -222,7 +217,6 @@ export default function HomePage() {
               {
                 img: 6,
                 icon: 6,
-                no: '06.',
                 title: 'Junior Competitive Program',
                 desc: 'Advanced training for swimmers who can swim all strokes and want stronger speed, drills, and goals.',
               },
@@ -239,7 +233,7 @@ export default function HomePage() {
                       <div className="icon-box">
                         <Image src={`/images/icon-program-item-${program.icon}.svg`} alt="" width={40} height={40} />
                       </div>
-                      <div className="program-item-no"><span>{program.no}</span></div>
+                 
                     </div>
                     <div className="program-item-body-content">
                       <div className="program-item-content">
@@ -731,7 +725,7 @@ export default function HomePage() {
               {
                 name: 'New Customer Registration',
                 delay: '0.2s',
-                desc: 'New to SwimAmerica Kuwait. Create your account, choose your program, and complete registration online in a few simple steps.',
+                desc: 'New to SwimAmerica Kuwait. Create your account, choose your program.',
                 bullets: [
                   'Quick online registration',
                   'Choose program and preferred location',
@@ -743,7 +737,7 @@ export default function HomePage() {
               {
                 name: 'Existing Customer Login',
                 delay: '0.4s',
-                desc: 'Already registered. Log in to manage your swimmer details, continue your learning journey, and stay updated with schedules.',
+                desc: ' Manage your swimmer details, continue your learning journey, and stay updated with schedules.',
                 bullets: [
                   'Access your account anytime',
                   'Update swimmer profile details',
@@ -794,9 +788,9 @@ export default function HomePage() {
               <div className="pricing-cta-box wow fadeInUp" data-wow-delay="0.6s">
                 <div className="pricing-cta-header">
                   <div className="pricing-cta-content">
-                    <h2>Need Help Choosing the Right Program</h2>
+                    <h2>Need Help Choosing</h2>
                     <p>
-                      Our team will guide you with level placement, location details, and the best
+                      Our team will guide you with the best
                       starting point for your swimmer.
                     </p>
                     <h3>
