@@ -1280,7 +1280,7 @@ header.main-header .header-sticky.active{
 .program-item-header .icon-box{
     height: 50px;
     width: 50px;
-    background-color: var(--accent-color);
+    background-color: #a0bee2;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1384,7 +1384,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background: var(--accent-color);
+	background: #a0bee2;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -1459,7 +1459,7 @@ header.main-header .header-sticky.active{
     font-family: 'Font Awesome 7 Free';
     font-size: 18px;
     font-weight: 900;
-    color: var(--accent-color);
+    color: #a0bee2;
     top: 0;
     left: 0;
 }
@@ -2000,7 +2000,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background: var(--accent-color);
+	background: #a0bee2;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -2321,7 +2321,7 @@ header.main-header .header-sticky.active{
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background: var(--accent-color);
+	background: #a0bee2;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
@@ -4851,7 +4851,7 @@ header.main-header .header-sticky.active{
 	color: var(--white-color);
 	width: 50px;
 	height: 50px;
-	background: var(--accent-color);
+	background: #a0bee2;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
