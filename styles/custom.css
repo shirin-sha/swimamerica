@@ -905,7 +905,7 @@ header.main-header .header-sticky.active{
 
 .hero-counter-box{
 	max-width: 390px;
-	background: var(--dark-divider-color);
+	background: rgba(8, 5, 23, 0.3); 
 	backdrop-filter: blur(30px);
 	-webkit-backdrop-filter: blur(30px);
 	border-radius: 20px;
@@ -915,7 +915,7 @@ header.main-header .header-sticky.active{
 
 .hero-counter-box h2{
 	font-size: 60px;
-	color: var(--accent-color);
+	color: #a0bee2;
 	margin-bottom: 20px;
 }
 
@@ -2402,7 +2402,7 @@ header.main-header .header-sticky.active{
 	left: 0;
 	font-size: 18px;
 	font-weight: 900;
-	color: var(--accent-color);
+	color:#a0bee2;
 }
 
 .pricing-item-body{
