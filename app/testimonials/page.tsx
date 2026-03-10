@@ -51,7 +51,7 @@ export default function TestimonialsPage() {
                     <div className="testimonial-item-author">
                       <div className="testimonial-author-image">
                         <figure className="image-anime">
-                          <Image src={`/images/author-${t.img}.jpg`} alt={t.author} width={60} height={60} />
+                          <Image src={`/images/author-${t.img}.jpg`} alt={t.author} width={50} height={50} />
                         </figure>
                       </div>
                       <div className="testimonial-author-content">
