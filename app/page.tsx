@@ -722,32 +722,10 @@ export default function HomePage() {
           </div>
           <div className="row">
             {[
-              {
-                name: 'New Customer Registration',
-                delay: '0.2s',
-                desc: 'New to SwimAmerica Kuwait. Create your account, choose your program.',
-                bullets: [
-                  'Quick online registration',
-                  'Choose program and preferred location',
-                  'Receive confirmation and next steps',
-                ],
-                strip: 'Start your registration online',
-                button: 'Register Now',
-              },
-              {
-                name: 'Existing Customer Login',
-                delay: '0.4s',
-                desc: ' Manage your swimmer details, continue your learning journey, and stay updated with schedules.',
-                bullets: [
-                  'Access your account anytime',
-                  'Update swimmer profile details',
-                  'Stay informed about classes',
-                ],
-                strip: 'Continue with your account',
-                button: 'Login Now',
-              },
-            ].map((plan, idx) => (
-              <div key={idx} className="col-xl-4 col-md-6">
+              { name: 'New Customer Registration', price: 'Start today', classes: 'Choose Location', delay: '0.2s',desc: 'New to SwimAmerica Kuwait. Create your account, choose your program.' ,list: ['Quick online registration', 'Choose program and preferred location', 'Receive confirmation and next steps'],button: 'Register Now',buttonDesc: 'Get quick response from our team'},
+              { name: 'Existing Customer Login', price: 'Login profile', classes: 'Update details', delay: '0.4s',desc: 'Manage your swimmer details, stay updated with schedules.' ,list: ['Access your account anytime', 'Update swimmer profile details', 'Stay informed about classes'],button: 'Login Now',buttonDesc: 'Track your progress & goals'},
+            ].map((plan, i) => (
+              <div key={i} className="col-xl-4 col-md-6">
                 <div className="pricing-item wow fadeInUp" data-wow-delay={plan.delay}>
                   <div className="pricing-item-header">
                     <div className="icon-box">
@@ -758,48 +736,48 @@ export default function HomePage() {
                       <p>{plan.desc}</p>
                     </div>
                     <div className="pricing-item-list">
-                      <ul>
-                        {plan.bullets.map((b, bi) => (
-                          <li key={bi}> {b}</li>
-                        ))}
-                      </ul>
+                        <ul>
+                            {plan.list.map((item, idx) => (
+                                <li key={idx}>{item}</li>
+                            ))}
+                        </ul>
                     </div>
                   </div>
                   <div className="pricing-item-body">
                     <div className="pricing-item-price-box">
                       <div className="pricing-item-price">
-                        <p>{plan.strip}</p>
+                        <h2>
+                          {plan.price}
+                        </h2>
+                        <p>{plan.classes}</p>
                       </div>
                       <div className="pricing-item-btn">
-                        <Link href="#" className="btn-default btn-highlighted">
+                        <Link href="/contact" className="btn-default btn-highlighted">
                           {plan.button}
                         </Link>
                       </div>
                     </div>
                     <div className="pricing-item-body-content">
-                      <p>&nbsp;</p>
+                      <p>{plan.buttonDesc}</p>
                     </div>
                   </div>
                 </div>
               </div>
             ))}
-            {/* Pricing CTA Box */}
+
             <div className="col-xl-4">
               <div className="pricing-cta-box wow fadeInUp" data-wow-delay="0.6s">
                 <div className="pricing-cta-header">
                   <div className="pricing-cta-content">
-                    <h2>Need Help Choosing</h2>
-                    <p>
-                      Our team will guide you with the best
-                      starting point for your swimmer.
-                    </p>
+                    <h2>Get Your Membership</h2>
+                    <p>Our memberships give you access to all equipment, personalized training.</p>
                     <h3>
-                      Call Us At: <a href="#">+965 5664 1177</a>
+                      Call Us At: <a href="tel:1234567890">+(123) 456-7980</a>
                     </h3>
                   </div>
                   <div className="pricing-cta-btn">
-                    <Link href="#" className="btn-default btn-highlighted">
-                      Call Us Today
+                    <Link href="/contact" className="btn-default btn-highlighted">
+                      Call Us Today!
                     </Link>
                   </div>
                 </div>
@@ -811,13 +789,21 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Pricing Benefits */}
             <div className="col-lg-12">
               <div className="pricing-benefit-list wow fadeInUp" data-wow-delay="0.8s">
                 <ul>
-                  <li><Image src="/images/icon-pricing-benefit-1.svg" alt="" width={20} height={20} />Get 30 day free trial</li>
-                  <li><Image src="/images/icon-pricing-benefit-2.svg" alt="" width={20} height={20} />No any hidden fees pay</li>
-                  <li><Image src="/images/icon-pricing-benefit-3.svg" alt="" width={20} height={20} />You can cancel anytime</li>
+                  <li>
+                    <Image src="/images/icon-pricing-benefit-1.svg" alt="" width={20} height={20} />
+                    Get 30 day free trial
+                  </li>
+                  <li>
+                    <Image src="/images/icon-pricing-benefit-2.svg" alt="" width={20} height={20} />
+                    No any hidden fees pay
+                  </li>
+                  <li>
+                    <Image src="/images/icon-pricing-benefit-3.svg" alt="" width={20} height={20} />
+                    You can cancel anytime
+                  </li>
                 </ul>
               </div>
             </div>
