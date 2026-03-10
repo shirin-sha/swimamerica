@@ -337,9 +337,9 @@ export default function HomePage() {
               <div className="section-footer-text section-satisfy-img wow fadeInUp" data-wow-delay="0.2s">
                 <div className="satisfy-client-images">
                   <div className="satisfy-client-image">
-                    <figure className="image-anime">
-                      <Image src="/images/author-6.jpg" alt="" width={30} height={30} />
-                    </figure>
+                    {/* <figure className="image-anime">
+                      <Image src="/images/author-6.webp" alt="" width={30} height={30} />
+                    </figure> */}
                   </div>
                   <div className="satisfy-client-image add-more">
                     <Image src="/images/icon-phone-primary.svg" alt="" width={20} height={20} />
