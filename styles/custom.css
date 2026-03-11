@@ -2727,7 +2727,7 @@ header.main-header .header-sticky.active{
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	padding: 90px 0;
+	padding: 70px 0;
 	overflow: hidden;
 }
 
@@ -2763,7 +2763,7 @@ header.main-header .header-sticky.active{
 	background-color: var(--dark-divider-color);
 	backdrop-filter: blur(40px);
 	border-radius: 20px;
-	padding: 28px;
+	padding: 22px;
 }
 
 .testimonial-slider .swiper-wrapper{
@@ -2772,7 +2772,7 @@ header.main-header .header-sticky.active{
 
 .testimonial-item{
 	height: 100%;
-	min-height: 360px;
+	min-height: 320px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
