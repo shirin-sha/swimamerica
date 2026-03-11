@@ -1998,7 +1998,7 @@ header.main-header .header-sticky.active{
 
 .our-features-item.experience-item{
 	background-color: var(--primary-color);
-	background-image: url('/images/our-feature-experience-item.svg');
+	/* background-image: url('/images/our-feature-experience-item.svg'); */
 	background-repeat: no-repeat;
 	background-position: top 50px right 20px; 
 	background-size: 80px auto;
@@ -2034,7 +2034,14 @@ header.main-header .header-sticky.active{
 
 .our-features-item.experience-item:hover .icon-box::before{
 	transform: scale(1);
-	background:var(--light-color);
+	background:var(--accent-color);
+
+
+}
+.our-features-item.experience-item:hover .icon-box img{
+	filter: brightness(0) invert(1);
+
+
 }
 
 .our-features-item.experience-item .icon-box img{
@@ -2043,6 +2050,7 @@ header.main-header .header-sticky.active{
     max-width: 32px;
     z-index: 1;
 }
+
 
 .our-features-item.experience-item .feature-item-content h3,
 .our-features-item.experience-item .feature-item-content p{
