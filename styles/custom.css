@@ -493,7 +493,7 @@ a:focus{
 .dark-section .section-title .section-sub-title{
 	background: var(--dark-divider-color);
 	backdrop-filter: blur(30px);
-	-webkit-backdrop-filter: blur(30px);
+	backdrop-filter: blur(30px);
 }
 
 .dark-section .section-title .section-sub-title,
@@ -833,10 +833,9 @@ header.main-header .header-sticky.active{
 	display: inline-flex;
 	align-items: center;
 	gap: 10px;
-	background-color: rgba(65, 64, 66, 0.5); /* #414042 at 50% opacity */
+	background-color: var(--dark-divider-color);
 	border-radius: 100px;
 	backdrop-filter: blur(50px);
-	-webkit-backdrop-filter: blur(50px);
 	padding: 8px 20px 8px 8px;
 	margin-bottom: 15px;
 }
@@ -906,9 +905,9 @@ header.main-header .header-sticky.active{
 
 .hero-counter-box{
 	max-width: 390px;
-	background: rgba(65, 64, 66, 0.5); /* #414042 at 50% opacity */
+	background:  var(--dark-divider-color);
+
 	backdrop-filter: blur(30px);
-	-webkit-backdrop-filter: blur(30px);
 	border-radius: 20px;
 	padding: 30px;
     margin-left: auto;	
