@@ -1998,7 +1998,7 @@ header.main-header .header-sticky.active{
 
 .our-features-item.experience-item{
 	background-color: var(--primary-color);
-	background-image: url(../images/ourfeature2.svg);
+	background-image: url(../images/our-feature-experience-item.svg);
     background-repeat: no-repeat;
 	background-position: top 20px right 20px; 
 	background-size: 80px auto;
