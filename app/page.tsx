@@ -462,8 +462,8 @@ export default function HomePage() {
                     </div>
                     <div className="feature-item-body">
                       <p>
-                        <span>Location:-</span> Sharq: Dasman Bilingual School<br />
-                        Salwa: Danah Universal School of Kuwait
+                        <span>Sharq: </span>Dasman Bilingual School<br />
+                       <span>Salwa: </span> Danah Universal School of Kuwait
                       </p>
                     </div>
                   </div>
