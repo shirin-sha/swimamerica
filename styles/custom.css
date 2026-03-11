@@ -2520,7 +2520,7 @@ header.main-header .header-sticky.active{
 
 .pricing-cta-image figure img{
 
-	max-width: 255px;
+	
 	aspect-ratio: 1 / 1.184;
 	border-radius: 20px 0 0 0;
 }
@@ -2777,7 +2777,7 @@ header.main-header .header-sticky.active{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	gap: 12px;
+	gap: 20px;
 }
 
 .testimonial-item-header{

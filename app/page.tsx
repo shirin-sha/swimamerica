@@ -772,10 +772,10 @@ export default function HomePage() {
               <div className="pricing-cta-box wow fadeInUp" data-wow-delay="0.6s">
                 <div className="pricing-cta-header">
                   <div className="pricing-cta-content">
-                    <h2>Get Your Membership</h2>
-                    <p>Our memberships give you access to all equipment, personalized training.</p>
+                    <h2>Need Help Choosing?</h2>
+                    <p>Our team will guide you with the best starting point for your swimmer.</p>
                     <h3>
-                      Call Us At: <a href="tel:1234567890">+(123) 456-7980</a>
+                      Call Us At: <a href="tel:+965 5664 1177">+965 5664 1177</a>
                     </h3>
                   </div>
                   <div className="pricing-cta-btn">
@@ -786,7 +786,7 @@ export default function HomePage() {
                 </div>
                 <div className="pricing-cta-image">
                   <figure>
-                    <Image src="/images/our-pricing-cta-image.png" alt="Pricing CTA" width={300} height={300} />
+                    <Image src="/images/our-pricing-cta-image.png" alt="Pricing CTA" width={200} height={300} />
                   </figure>
                 </div>
               </div>
