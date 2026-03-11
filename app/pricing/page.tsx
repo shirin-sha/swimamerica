@@ -53,7 +53,7 @@ export default function PricingPage() {
                         <p>* Monthly {plan.classes} Classes</p>
                       </div>
                       <div className="pricing-item-btn">
-                        <Link href="/contact" className="btn-default btn-highlighted">Join Now</Link>
+                        <Link href="#" className="btn-default btn-highlighted">Join Now</Link>
                       </div>
                     </div>
                     <div className="pricing-item-body-content">
@@ -73,7 +73,7 @@ export default function PricingPage() {
                     <h3>Call Us At: <a href="tel:1234567890">+(123) 456-7980</a></h3>
                   </div>
                   <div className="pricing-cta-btn">
-                    <Link href="/contact" className="btn-default btn-highlighted">Call Us Today!</Link>
+                    <Link href="#" className="btn-default btn-highlighted">Call Us Today!</Link>
                   </div>
                 </div>
                 <div className="pricing-cta-image">

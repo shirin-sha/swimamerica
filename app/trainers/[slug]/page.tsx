@@ -118,7 +118,7 @@ export default async function TrainerDetailPage({
                   </ul>
                 </div>
                 <div className="trainer-single-btn wow fadeInUp" data-wow-delay="0.8s">
-                  <Link href="/contact" className="btn-default btn-highlighted">Book a Session</Link>
+                  <Link href="#" className="btn-default btn-highlighted">Book a Session</Link>
                 </div>
               </div>
             </div>

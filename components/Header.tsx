@@ -11,7 +11,7 @@ const Header = () => {
           <div className="container">
             {/* Logo */}
             <Link className="navbar-brand" href="/">
-              <Image src="/images/logo.png" alt="GymPro Logo" width={220} height={70} />
+              <Image src="/images/logo.png" alt="GymPro Logo" width={200} height={70} />
             </Link>
 
             {/* Main Menu */}
@@ -51,7 +51,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="/contact">Contact</Link>
+                    <Link className="nav-link" href="#">Contact</Link>
                   </li>
                 </ul>
               </div>

@@ -615,7 +615,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background: var(--accent-color);
+	background: var(--light-color);
 	transition: all 0.3s ease-in-out;
 	text-align: left;
 }
