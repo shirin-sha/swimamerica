@@ -328,7 +328,7 @@ export default function HomePage() {
                   </div>
                   <div className="satisfy-client-content">
                     <p>Trusted by 8,000+ Swimmers</p>
-                    <span>Since 2013 in Kuwait</span>
+                    <p>Since 2013 in Kuwait</p>
                   </div>
                 </div>
               </div>
@@ -506,7 +506,7 @@ export default function HomePage() {
                     <div className="feature-item-content">
                       <h3>Since 2013 in Kuwait</h3>
                       <p>
-                        Our team helps swimmers progress safely with station based training, clear evaluation.
+                        We helps swimmers progress safely with station based training, clear evaluation.
                       </p>
                       <ul>
                         <li>Small groups with 6:1 coaching ratio</li>
@@ -722,14 +722,14 @@ export default function HomePage() {
           </div>
           <div className="row">
             {[
-              { name: 'New Customer Registration', price: 'Start today', classes: 'Choose Location', delay: '0.2s',desc: 'New to SwimAmerica Kuwait. Create your account, choose your program.' ,list: ['Quick online registration', 'Choose program and preferred location', 'Receive confirmation and next steps'],button: 'Register Now',buttonDesc: 'Get quick response from our team'},
-              { name: 'Existing Customer Login', price: 'Login profile', classes: 'Update details', delay: '0.4s',desc: 'Manage your swimmer details, stay updated with schedules.' ,list: ['Access your account anytime', 'Update swimmer profile details', 'Stay informed about classes'],button: 'Login Now',buttonDesc: 'Track your progress & goals'},
+              { name: 'New Customer Registration',icon: 'icon-pricing-item-1.svg', price: 'Start today', classes: 'Choose Location', delay: '0.2s',desc: 'New to SwimAmerica Kuwait. Create your account, choose your program.' ,list: ['Quick online registration', 'Choose program and preferred location', 'Receive confirmation and next steps'],button: 'Register Now',buttonDesc: 'Get quick response from our team'},
+              { name: 'Existing Customer Login',icon: 'icon-pricing-item-2.svg', price: 'Login profile', classes: 'Update details', delay: '0.4s',desc: 'Manage your swimmer details, stay updated with schedules.' ,list: ['Access your account anytime', 'Update swimmer profile details', 'Stay informed about classes'],button: 'Login Now',buttonDesc: 'Track your progress & goals'},
             ].map((plan, i) => (
               <div key={i} className="col-xl-4 col-md-6">
                 <div className="pricing-item wow fadeInUp" data-wow-delay={plan.delay}>
                   <div className="pricing-item-header">
                     <div className="icon-box">
-                      <Image src="/images/icon-pricing-item-1.svg" alt="" width={40} height={40} />
+                      <Image src={`/images/${plan.icon}`} alt="" width={40} height={40} />
                     </div>
                     <div className="pricing-item-content">
                       <h2>{plan.name}</h2>
