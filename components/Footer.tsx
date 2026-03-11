@@ -10,7 +10,7 @@ const Footer = () => {
             {/* Footer Header */}
             <div className="footer-header">
               <div className="footer-logo">
-                <Image src="/images/logo.png" alt="GymPro Logo" width={210} height={60} />
+                <Image src="/images/footerlogo.png" alt="GymPro Logo" width={220} height={70} />
               </div>
               <div className="section-title">
                 <h2 data-cursor="-opaque">

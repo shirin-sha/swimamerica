@@ -29,35 +29,35 @@ export default function ContactPage() {
                         height={640}
                       />
                     </figure>
-                  </div>
+                </div>
 
                   <div className="contact-info-items-list wow fadeInUp">
                     <div className="contact-info-item">
-                      <div className="icon-box">
+                    <div className="icon-box">
                         <Image
                           src="/images/icon-phone-primary.svg"
                           alt="Phone"
                           width={32}
                           height={32}
                         />
-                      </div>
+                    </div>
                       <div className="contact-info-item-content">
                         <h2>Phone Number</h2>
                         <p>
                           <a href="tel:+96556641177">+965 5664 1177</a>
                         </p>
-                      </div>
                     </div>
+                  </div>
 
                     <div className="contact-info-item">
-                      <div className="icon-box">
+                    <div className="icon-box">
                         <Image
                           src="/images/icon-mail-primary.svg"
                           alt="Email"
                           width={32}
                           height={32}
                         />
-                      </div>
+                    </div>
                       <div className="contact-info-item-content">
                         <h2>Email Address</h2>
                         <p>
@@ -65,10 +65,10 @@ export default function ContactPage() {
                             info@swimamericakw.com
                           </a>
                         </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
+              </div>
+            </div>
 
                 {/* Right: Contact form */}
                 <div className="contact-form">
@@ -97,7 +97,7 @@ export default function ContactPage() {
                     className="wow fadeInUp"
                     data-wow-delay="0.4s"
                   >
-                    <div className="row">
+                  <div className="row">
                       <div className="form-group col-md-6 mb-4">
                         <label>First Name *</label>
                         <input
@@ -118,7 +118,7 @@ export default function ContactPage() {
                           placeholder="Enter Email Address"
                           required
                         />
-                      </div>
+                    </div>
 
                       <div className="form-group col-md-6 mb-4">
                         <label>Phone Number</label>
@@ -159,9 +159,9 @@ export default function ContactPage() {
                           placeholder="Any additional details or questions..."
                           required
                         ></textarea>
-                      </div>
+                    </div>
 
-                      <div className="col-md-12">
+                    <div className="col-md-12">
                         <button
                           type="submit"
                           className="btn-default btn-highlighted"
@@ -173,14 +173,14 @@ export default function ContactPage() {
                           className="h4"
                           aria-live="polite"
                         ></div>
-                      </div>
                     </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
+      </div>
       </div>
       {/* Page Contact Us End */}
 

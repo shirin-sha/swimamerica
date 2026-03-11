@@ -794,15 +794,15 @@ export default function HomePage() {
                 <ul>
                   <li>
                     <Image src="/images/icon-pricing-benefit-1.svg" alt="" width={20} height={20} />
-                    Get 30 day free trial
+                    Safe indoor heated pool
                   </li>
                   <li>
                     <Image src="/images/icon-pricing-benefit-2.svg" alt="" width={20} height={20} />
-                    No any hidden fees pay
+                    Structured station progress
                   </li>
                   <li>
                     <Image src="/images/icon-pricing-benefit-3.svg" alt="" width={20} height={20} />
-                    You can cancel anytime
+                    Supportive coaching team
                   </li>
                 </ul>
               </div>
@@ -938,7 +938,7 @@ export default function HomePage() {
                 </div>
                 <div className="contact-us-circle wow fadeInUp" data-wow-delay="0.4s">
                   <Link href="#">
-                    <Image src="/images/contact-us-circle.svg" alt="Safe Learning. Real Progress." width={120} height={120} />
+                    <Image src="/images/contact-us-circle.svg" alt="Safe Learning. Real Progress." width={140} height={140} />
                   </Link>
                 </div>
               </div>
@@ -977,7 +977,7 @@ export default function HomePage() {
                               {[1, 2, 3, 4, 5].map((s) => <i key={s} className="fa-solid fa-star"></i>)}
                             </div>
                             <div className="testimonial-item-quote">
-                              <Image src="/images/testimonial-quote.svg" alt="Quote" width={40} height={40} />
+                              <Image src="/images/testimonial-quote.svg" alt="Quote" width={60} height={60} />
                             </div>
                           </div>
                           <div className="testimonial-item-body">
@@ -1027,7 +1027,7 @@ export default function HomePage() {
                               src={`/images/company-supports-logo-${idx + 1}.svg`}
                               alt={label}
                               width={120}
-                              height={60}
+                              height={40}
                             />
                             <p>{label}</p>
                           </div>
