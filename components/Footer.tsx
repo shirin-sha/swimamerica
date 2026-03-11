@@ -26,7 +26,7 @@ const Footer = () => {
               <div className="about-footer-content">
                 <h2>Our Locations</h2>
                 <p>
-                  <br/>
+                
                   Two indoor pool locations in Kuwait with structured lessons, supportive coaches, and safe supervised
                   training for every swimmer.
                 </p>

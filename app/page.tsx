@@ -368,7 +368,7 @@ export default function HomePage() {
                   </p>
                 </div>
                 <div className="watch-video-circle wow fadeInUp">
-                  <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" className="popup-video" data-cursor-text="Play">
+                  <a href="#" className="popup-video" data-cursor-text="Play">
                     <Image src="/images/watch-video-circle.png" alt="Watch Video" width={130} height={130} />
                   </a>
                 </div>
@@ -755,7 +755,7 @@ export default function HomePage() {
                         <p>{plan.classes}</p>
                       </div>
                       <div className="pricing-item-btn">
-                        <Link href="/contact" className="btn-default btn-highlighted">
+                        <Link href="#" className="btn-default btn-highlighted">
                           {plan.button}
                         </Link>
                       </div>

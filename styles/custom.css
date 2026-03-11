@@ -2034,6 +2034,7 @@ header.main-header .header-sticky.active{
 
 .our-features-item.experience-item:hover .icon-box::before{
 	transform: scale(1);
+	background:var(--light-color);
 }
 
 .our-features-item.experience-item .icon-box img{
