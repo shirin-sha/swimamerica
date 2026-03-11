@@ -461,7 +461,10 @@ export default function HomePage() {
                       </p>
                     </div>
                     <div className="feature-item-body">
-                      <p><span>Location:-</span> Sharq and Salwa, Kuwait</p>
+                      <p>
+                        <span>Location:-</span> Sharq: Dasman Bilingual School<br />
+                        Salwa: Danah Universal School of Kuwait
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -949,21 +952,21 @@ export default function HomePage() {
                   <div className="swiper-wrapper" data-cursor-text="Drag">
                     {[
                       {
-                        author: 'Sara A',
+                        author: ' Sara Abdullah',
                         img: 1,
                         tag: 'Parent',
                         quote:
                           'Within a few weeks, my child went from fear to confidence. The station system makes progress clear, and the coaches explain everything patiently.',
                       },
                       {
-                        author: 'Faisal M',
+                        author: 'Faisal Mohammed',
                         img: 2,
                         tag: 'Parent',
                         quote:
                           'Very organized program and safe environment. The 6:1 ratio really helps. My son’s stroke technique improved and he looks forward to class.',
                       },
                       {
-                        author: 'Reem K',
+                        author: 'Reem Khalid',
                         img: 3,
                         tag: 'Parent',
                         quote:
