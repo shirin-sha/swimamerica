@@ -98,7 +98,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="col-lg-12">
             <div className="footer-copyright-text">
-              <p>Copyright © 2026 SwimAmerica Kuwait. All Rights Reserved.</p>
+              <p>Copyright © 2026 SwimAmerica Kuwait. All Rights Reserved.  Powered by Anathoth</p>
             </div>
           </div>
         </div>
