@@ -2038,7 +2038,7 @@ header.main-header .header-sticky.active{
 .our-features-item.experience-item .icon-box img{
 	position: relative;
     width: 100%;
-    max-width: 24px;
+    max-width: 32px;
     z-index: 1;
 }
 
