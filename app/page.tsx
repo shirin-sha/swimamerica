@@ -786,7 +786,7 @@ export default function HomePage() {
                 </div>
                 <div className="pricing-cta-image">
                   <figure>
-                    <Image src="/images/our-pricing-cta-image.png" alt="Pricing CTA" width={200} height={300} />
+                    <Image src="/images/our-pricing-cta-image.png" alt="Pricing CTA" width={255} height={304} />
                   </figure>
                 </div>
               </div>
